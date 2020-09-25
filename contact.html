@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact us who created this Space X themed website."
+    />
+    <meta
+      name="keywords"
+      content="contact, space x contact, space missions ideas, space missions by space x, launches"
+    />
+    <meta name="author" content="Silje" />
+    <meta name="copyright" content="Silje" />
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <title>Contact us</title>
+  </head>
+  <body class="contact">
+    <a href="#main" title="Skip to main content" id="gotomain"
+      >Skip to main content</a
+    >
+    <header id="top">
+      <label for="hamburger-menu"
+        ><i class="fa fa-bars fa-3x nav-fa"></i
+      ></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <div class="line hide-line"></div>
+          <li>
+            <a title="Main page" href="index.html"
+              ><img
+                src="images/homepage.png"
+                alt="Icon of home leading to homepage."
+            /></a>
+            <a title="Main page" href="index.html">Home</a>
+          </li>
+          <div class="line hide-line"></div>
+          <li>
+            <a title="Information page" href="info.html"
+              ><img
+                src="images/info.png"
+                alt="Icon of space shuttle leading to information page."
+            /></a>
+            <a title="Information page" href="info.html">Learning portal</a>
+          </li>
+          <div class="line hide-line"></div>
+          <li>
+            <a title="Upcoming shuttles page" href="upcoming.html"
+              ><img
+                src="images/upcoming.png"
+                alt="Icon of satellite, leading to upcoming launches page."
+            /></a>
+            <a title="Upcoming shuttles page" href="upcoming.html"
+              >Upcoming Launches</a
+            >
+          </li>
+          <div class="line hide-line"></div>
+          <li>
+            <a title="Past shuttles page" href="past.html"
+              ><img
+                src="images/past.png"
+                alt="Icon of earth with flag, leading to past launches page."
+            /></a>
+            <a title="Past shuttles page" href="past.html">Past Launches</a>
+          </li>
+          <div class="line hide-line"></div>
+          <li class="active">
+            <a title="Contact us page" href="contact.html"
+              ><img
+                src="images/contact.png"
+                alt="Letter with email symbol leading to contact us page."
+            /></a>
+            <a title="Contact us page" href="contact.html">Reach out</a>
+          </li>
+          <div class="line hide-line"></div>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <div class="errorContainer"></div>
+      <h1>Leave a feedback</h1>
+      <form>
+        <fieldset class="hide">
+          <section>
+            <label for="name"
+              >Full name
+              <input class="input" type="text" name="name" id="name" />
+            </label>
+            <div class="form-error" id="nameError">Please enter your name</div>
+          </section>
+          <section>
+            <label for="email"
+              >Email address
+              <input class="input" type="email" name="email" id="email" />
+            </label>
+            <div class="form-error" id="emailError">
+              Please enter a valid email address
+            </div>
+          </section>
+        </fieldset>
+        <fieldset>
+          <label for="comments"
+            >Leave your questions below
+            <textarea
+              name="comments"
+              class="input"
+              id="comments"
+              cols="45"
+              rows="8"
+            ></textarea>
+          </label>
+          <div class="form-error" id="commentsError">
+            Please fill in your question or request
+          </div>
+        </fieldset>
+        <fieldset>
+          <input name="submit" type="submit" class="submit button" />
+        </fieldset>
+        <p class="form-success" id="successMessage">
+          Your form was submitted correctly!
+        </p>
+      </form>
+      <section class="info-section contactus-info">
+        <p>Help us develop by sharing our passion for space shuttles!</p>
+        <a class="link" href="https://www.facebook.com/spacenewsx"
+          ><i class="fa fa-link" aria-hidden="true"></i> Share on Facebook
+          &rsaquo;</a
+        >
+        <a class="link" href="https://www.twitter.com/spacex"
+          ><i class="fa fa-link" aria-hidden="true"></i> Share on Twitter
+          &rsaquo;</a
+        >
+        <a class="link" href="https://www.youtube.com/user/spacexchannel"
+          ><i class="fa fa-link" aria-hidden="true"></i> Share on Youtube
+          &rsaquo;</a
+        >
+      </section>
+    </main>
+    <a title="Back to top of page" href="#top" id="backtotop"
+      ><i class="fa fa-chevron-circle-up fa-3x"></i
+    ></a>
+    <footer>
+      <a
+        title="Social media icon of facebook leading to facebook.com"
+        href="https://www.facebook.com/spacenewsx"
+        ><i class="fab fa-facebook"></i
+      ></a>
+      <a
+        title="Social media icon of twitter leading to twitter.com"
+        href="https://twitter.com/spacex"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a
+        title="Social media icon of youtube leading to youtube.com"
+        href="https://www.youtube.com/user/spacexchannel"
+        ><i class="fab fa-youtube"></i
+      ></a>
+      <p>&copy; 2020 SPACEX / SILJE LANGRUD</p>
+    </footer>
+    <script src="scripts/general.js"></script>
+    <script src="scripts/form-validation.js"></script>
+  </body>
+</html>

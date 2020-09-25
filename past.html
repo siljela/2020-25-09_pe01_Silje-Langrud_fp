@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Space X previous space missions, calendar and overview. Names, numbers, information and external links."
+    />
+    <meta
+      name="keywords"
+      content="latest launch by space x, previous launches by space x, launches 2006, launches 2007, launches 2008, launches 2020, history"
+    />
+    <meta name="author" content="Silje" />
+    <meta name="copyright" content="Silje" />
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <title>The past launches by Space X</title>
+  </head>
+  <body class="past">
+    <a href="#main" title="Skip to main content" id="gotomain"
+      >Skip to main content</a
+    >
+    <header id="top">
+      <label for="hamburger-menu"
+        ><i class="fa fa-bars fa-3x nav-fa"></i
+      ></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <div class="line hide-line"></div>
+          <li>
+            <a title="Main page" href="index.html"
+              ><img
+                src="images/homepage.png"
+                alt="Icon of home leading to homepage."
+            /></a>
+            <a title="Main page" href="index.html">Home</a>
+          </li>
+          <div class="line hide-line"></div>
+          <li>
+            <a title="Information page" href="info.html"
+              ><img
+                src="images/info.png"
+                alt="Icon of space shuttle leading to information page."
+            /></a>
+            <a title="Information page" href="info.html">Learning portal</a>
+          </li>
+          <div class="line hide-line"></div>
+          <li>
+            <a title="Upcoming shuttles page" href="upcoming.html"
+              ><img
+                src="images/upcoming.png"
+                alt="Icon of satellite, leading to upcoming launches page."
+            /></a>
+            <a title="Upcoming shuttles page" href="upcoming.html"
+              >Upcoming Launches</a
+            >
+          </li>
+          <div class="line hide-line"></div>
+          <li class="active">
+            <a title="Past shuttles page" href="past.html"
+              ><img
+                src="images/past.png"
+                alt="Icon of earth with flag, leading to past launches page."
+            /></a>
+            <a title="Past shuttles page" href="past.html">Past Launches</a>
+          </li>
+          <div class="line hide-line"></div>
+          <li>
+            <a title="Contact us page" href="contact.html"
+              ><img
+                src="images/contact.png"
+                alt="Letter with email symbol leading to contact us page."
+            /></a>
+            <a title="Contact us page" href="contact.html">Reach out</a>
+          </li>
+          <div class="line hide-line"></div>
+        </ul>
+      </nav>
+      <h1 id="main">Past Missions</h1>
+      <div class="year-container">
+        <div class="year-dropdown">
+          <button class="year-btn">
+            Select year
+            <span class="fas fa-angle-down"></span>
+          </button>
+          <div class="year-content">
+            <a href="#2007">2007</a>
+            <a href="#2008">2008</a>
+            <a href="#2009">2009</a>
+            <a href="#2010">2010</a>
+            <a href="#2012">2012</a>
+            <a href="#2013">2013</a>
+            <a href="#2014">2014</a>
+            <a href="#2015">2015</a>
+            <a href="#2016">2016</a>
+            <a href="#2017">2017</a>
+            <a href="#2018">2018</a>
+            <a href="#2019">2019</a>
+            <a href="#2020">2020</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="errorContainer"></div>
+      <div id="pastMissions"><div class="loader"></div></div>
+      <section class="info-section contactus-info">
+        <h3>Got any questions?</h3>
+        <a title="Contact us page" href="contact.html" class="button"
+          >Reach out</a
+        >
+        <p>Help us develop by sharing our passion for space shuttles!</p>
+        <a class="link" href="https://www.facebook.com/spacenewsx"
+          ><i class="fa fa-link" aria-hidden="true"></i> Share on Facebook
+          &rsaquo;</a
+        >
+        <a class="link" href="https://www.twitter.com/spacex"
+          ><i class="fa fa-link" aria-hidden="true"></i> Share on Twitter
+          &rsaquo;</a
+        >
+        <a class="link" href="https://www.youtube.com/user/spacexchannel"
+          ><i class="fa fa-link" aria-hidden="true"></i> Share on Youtube
+          &rsaquo;</a
+        >
+      </section>
+    </main>
+    <a title="Back to top of page" href="#top" id="backtotop"
+      ><i class="fa fa-chevron-circle-up fa-3x"></i
+    ></a>
+    <footer>
+      <a
+        title="Social media icon of facebook leading to facebook.com"
+        href="https://www.facebook.com/spacenewsx"
+        ><i class="fab fa-facebook"></i
+      ></a>
+      <a
+        title="Social media icon of twitter leading to twitter.com"
+        href="https://twitter.com/spacex"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a
+        title="Social media icon of youtube leading to youtube.com"
+        href="https://www.youtube.com/user/spacexchannel"
+        ><i class="fab fa-youtube"></i
+      ></a>
+      <p>&copy; 2020 SPACEX / SILJE LANGRUD</p>
+    </footer>
+    <script src="scripts/general.js"></script>
+    <script src="scripts/past.js"></script>
+  </body>
+</html>
